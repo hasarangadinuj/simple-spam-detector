@@ -39,7 +39,7 @@ Note: dataset is imbalanced (~87% ham / 13% spam), so accuracy alone is misleadi
 
 ## Running Locally
 ```
-git clone <your-repo-url>
+git clone https://github.com/hasarangadinuj/simple-spam-detector.git
 cd spam-classifier
 pip install pandas scikit-learn joblib streamlit
 python train_model.py
