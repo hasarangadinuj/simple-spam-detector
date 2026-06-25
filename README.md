@@ -15,7 +15,7 @@ A beginner-friendly Machine Learning project that classifies SMS/email messages 
 - **Streamlit** — web app interface
 
 ## How It Works
-1. The model is trained on the [UCI SMS Spam Collection dataset](https://archive.ics.uci.edu/dataset/228/sms+spam+collection), which contains 5,574 real SMS messages labeled as "spam" or "ham" (not spam).
+1. The model is trained on the [UCI SMS Spam Collection dataset](https://archive.ics.uci.edu/dataset/228/sms+spam+collection), which contains 5,574 real SMS messages labeled as "spam" or "ham" (not spam). (run get_data.py to get the data set that used here)
 2. Each message is converted into numerical form using **TF-IDF** (Term Frequency–Inverse Document Frequency), which scores words based on how important/distinctive they are.
 3. A **Multinomial Naive Bayes** classifier is trained on these numeric vectors to learn which word patterns are associated with spam.
 4. New messages go through the same TF-IDF conversion, and the trained model predicts a spam probability.
